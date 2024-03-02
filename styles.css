@@ -64,7 +64,7 @@ ul {
 .wrapper-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -76,6 +76,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+}
+
+.wrapper-btn:hover,
+.wrapper-btn:focus {
+  color: #404bbf;
 }
 
 .visually-hidden {
@@ -114,19 +120,25 @@ ul {
   color: #434455;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
 }
 
 .team-item {
+  background-color: #fff;
 }
 
 .team-subtitle {
@@ -150,10 +162,11 @@ ul {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
